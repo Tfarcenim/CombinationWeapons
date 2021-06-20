@@ -1,12 +1,12 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.combinationweapons.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "combinationweapons.refmap.json",
   "mixins": [
+    "ExampleMixin"
   ],
   "client":[
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
